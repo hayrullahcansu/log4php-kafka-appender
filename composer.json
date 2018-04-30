@@ -1,0 +1,20 @@
+{
+  "name": "hayrullahcansu/log4php-kafka-appender",
+  "description": "Kafka Appender for Log4Php",
+  "keywords": ["log", "logging", "php", "kafka"],
+  "homepage": "https://github.com/hayrullahcansu/log4php-kafka-appender",
+  "type": "library",
+  "license": "Apache-2.0",
+  "autoload": {
+    "psr-4": {
+      "hayrullahcansu\\log4phpKafkaAppender\\": "src/main/php/"
+    }
+  },
+  "require": {
+    "apache/log4php": "2.3.0",
+    "php": ">=5.3",
+    "ext-rdkafka": "*",
+    "kwn/php-rdkafka-stubs": "~1.1.0"
+
+  }
+}
