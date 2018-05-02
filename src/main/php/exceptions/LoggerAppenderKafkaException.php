@@ -1,5 +1,5 @@
 <?php
-namespace amoma\log4phpKafka\exceptions;
+namespace hayrullahcansu\log4phpKafka\exceptions;
 
 use LoggerException;
 

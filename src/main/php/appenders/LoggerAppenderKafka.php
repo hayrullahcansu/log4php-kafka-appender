@@ -1,11 +1,13 @@
 <?php
-namespace amoma\log4phpKafka\appenders;
+namespace hayrullahcansu\log4phpKafka\appenders;
 
-use amoma\log4phpKafka\exceptions\KafkaProducerException;
-use amoma\log4phpKafka\exceptions\KafkaTimedOutException;
-use amoma\log4phpKafka\exceptions\LoggerAppenderKafkaException;
-//use RdKafka\{Producer, ProducerTopic, Conf, TopicConf};
-use RdKafka;
+use hayrullahcansu\log4phpKafka\exceptions\KafkaProducerException;
+use hayrullahcansu\log4phpKafka\exceptions\KafkaTimedOutException;
+use hayrullahcansu\log4phpKafka\exceptions\LoggerAppenderKafkaException;
+use RdKafka\Producer;
+use RdKafka\ProducerTopic;
+use RdKafka\Conf;
+use RdKafka\TopicConf;
 use LoggerAppender;
 use LoggerLoggingEvent;
 use Throwable;

@@ -1,7 +1,5 @@
 <?php
-declare(strict_types = 1);
-
-use amoma\log4phpKafka\appenders\LoggerAppenderKafka;
+use hayrullahcansu\log4phpKafka\appenders\LoggerAppenderKafka;
 
 return [
     'rootLogger' => [
